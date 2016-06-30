@@ -53,7 +53,9 @@ For example
         }
     ]
 
-    $  curl -X POST -H "Content-Type: application/json" -d '[{"owner": "user2@test.com:numbers", "front": "x+x", "back": "2x"}]
+    $  curl -X POST -H "Content-Type: application/json" \
+       -d '[{"owner": "user2@test.com:numbers", "front": "x+x", "back": "2x"}]' \
+       "http://127.0.0.1:55555/store?type=cards&user=admin"
 
 The database operates on Card, Deck, and User types.  Users own Decks which are
 made up of Cards.
