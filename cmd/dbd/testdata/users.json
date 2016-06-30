@@ -1,0 +1,12 @@
+[
+	{
+		"email": "askcarter@example.com",
+		"name": "Carter",
+		"password": "$2a$10$KgFhp4HAaBCRAYbFp5XYUOKrbO90yrpUQte4eyafk4Tu6mnZcNWiK"
+	},
+	{
+		"email": "alina@example.com",
+		"name": "Alina",
+		"password": "$2a$10$KgFhp4HAaBCRAYbFp5XYUOKrbO90yrpUQte4eyafk4Tu6mnZcNWiK"
+	}
+]

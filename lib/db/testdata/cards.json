@@ -1,0 +1,52 @@
+[
+	{
+		"owner": "alina@example.com:spanish",
+		"front": "feugo",
+		"back": "pretty"
+	},
+	{
+		"owner": "alina@example.com:spanish",
+		"front": "futbol",
+		"back": "soccer"
+	},
+	{
+		"owner": "alina@example.com:spanish",
+		"front": "que?",
+		"back": "what?"
+	},
+	{
+		"owner": "alina@example.com:spanish",
+		"front": "a donde es?",
+		"back": "where is?"
+	},
+	{
+		"owner": "alina@example.com:spanish",
+		"front": "hola",
+		"back": "hello"
+	},
+	{
+		"owner": "askcarter@example.com:algebra",
+		"front": "x*0",
+		"back": "0"
+	},
+	{
+		"owner": "askcarter@example.com:algebra",
+		"front": "x+0",
+		"back": "x"
+	},
+	{
+		"owner": "askcarter@example.com:algebra",
+		"front": "x+x",
+		"back": "2x"
+	},
+	{
+		"owner": "askcarter@example.com:programming",
+		"front": "favorite programming language",
+		"back": "Go"
+	},
+	{
+		"owner": "askcarter@example.com:programming",
+		"front": "public interface",
+		"back": "API"
+	}
+]
