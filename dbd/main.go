@@ -84,14 +84,14 @@ func (a *appDB) init(w http.ResponseWriter, r *http.Request) (int, error) {
 		return http.StatusInternalServerError, err
 	}
 
-	fmt.Fprintf(w, `{"message": "initialized db"}`)
+	fmt.Fprintf(w, `{"message": "initialized db"}\n`)
 
 	return http.StatusOK, nil
 }
 
 func (a *appDB) version(w http.ResponseWriter, r *http.Request) (int, error) {
 	const version = "1.0.0"
-	fmt.Fprintf(w, `{"version": "%v"}`, version)
+	fmt.Fprintf(w, `{"version": "%v"}\n`, version)
 
 	return http.StatusOK, nil
 }
@@ -168,7 +168,7 @@ func (a *appDB) store(w http.ResponseWriter, r *http.Request) (int, error) {
 		return http.StatusInternalServerError, err
 	}
 
-	fmt.Fprintf(w, `{"message": "stored data"}`)
+	fmt.Fprintf(w, `{"message": "stored data"}\n`)
 
 	return http.StatusOK, nil
 }
